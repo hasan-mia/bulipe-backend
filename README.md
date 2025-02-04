@@ -70,6 +70,6 @@ FRONTEND_URL=https://localhost:3333
 
 [API Documentation](https://documenter.getpostman.com/view/25680118/2sAYQgi9Gs)
 
-[Frontend Code](https://github.com/hasan-mia/bulipe-client)
+[Frontend Code](https://github.com/hasan-mia/bulipe-frontend)
 
-[Backend Code](https://github.com/hasan-mia/bulipe-server)
+[Backend Code](https://github.com/hasan-mia/bulipe-backend)
