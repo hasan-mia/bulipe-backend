@@ -68,7 +68,7 @@ FRONTEND_URL=https://localhost:3333
 
 [Live Backend](https://bulipe-backend.vercel.app/)
 
-[API Documentation](https://documenter.getpostman.com/view/25680118/2sAYQgi9Gs)
+[API Documentation](https://documenter.getpostman.com/view/25680118/2sAYX5LNXz)
 
 [Frontend Code](https://github.com/hasan-mia/bulipe-frontend)
 
