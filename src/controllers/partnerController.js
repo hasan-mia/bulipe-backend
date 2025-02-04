@@ -7,7 +7,7 @@ exports.createPartner = catchAsyncError(async (req, res, next) => {
     const partner = await Partner.create(req.body)
     res.status(201).json({
         success: true,
-        partner,
+        data: partner,
     })
 })
 
@@ -60,7 +60,7 @@ exports.updatePartner = catchAsyncError(async (req, res, next) => {
     })
     res.status(200).json({
         success: true,
-        partner,
+        data: partner,
     })
 })
 

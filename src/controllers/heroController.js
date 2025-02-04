@@ -7,7 +7,7 @@ exports.createHero = catchAsyncError(async (req, res, next) => {
     const hero = await Hero.create(req.body)
     res.status(201).json({
         success: true,
-        hero,
+        data: hero,
     })
 })
 
@@ -18,7 +18,7 @@ exports.getHero = catchAsyncError(async (req, res, next) => {
     }
     res.status(200).json({
         success: true,
-        hero,
+        data: hero,
     })
 })
 
@@ -34,7 +34,7 @@ exports.updateHero = catchAsyncError(async (req, res, next) => {
     })
     res.status(200).json({
         success: true,
-        hero,
+        data: hero,
     })
 })
 

@@ -53,7 +53,7 @@ exports.getSingleNews = catchAsyncError(async (req, res, next) => {
     }
     res.status(200).json({
         success: true,
-        news,
+        data: news,
     })
 })
 
@@ -79,7 +79,7 @@ exports.updateNews = catchAsyncError(async (req, res, next) => {
 
     res.status(200).json({
         success: true,
-        news,
+        data: news,
     });
 });
 
@@ -119,7 +119,7 @@ exports.updateNews = catchAsyncError(async (req, res, next) => {
 
     res.status(200).json({
         success: true,
-        news,
+        data: news,
     });
 });
 

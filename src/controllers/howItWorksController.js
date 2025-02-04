@@ -7,7 +7,7 @@ exports.createHowItWorks = catchAsyncError(async (req, res, next) => {
     const howItWorks = await HowItWorks.create(req.body)
     res.status(201).json({
         success: true,
-        howItWorks,
+        data: howItWorks,
     })
 })
 
@@ -18,7 +18,7 @@ exports.getHowItWorks = catchAsyncError(async (req, res, next) => {
     }
     res.status(200).json({
         success: true,
-        howItWorks,
+        data: howItWorks,
     })
 })
 
@@ -34,7 +34,7 @@ exports.updateHowItWorks = catchAsyncError(async (req, res, next) => {
     })
     res.status(200).json({
         success: true,
-        howItWorks,
+        data: howItWorks,
     })
 })
 

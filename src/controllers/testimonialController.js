@@ -7,7 +7,7 @@ exports.createTestimonial = catchAsyncError(async (req, res, next) => {
     const testimonial = await Testimonial.create(req.body)
     res.status(201).json({
         success: true,
-        testimonial,
+        data: testimonial,
     })
 })
 
@@ -51,7 +51,7 @@ exports.getTestimonial = catchAsyncError(async (req, res, next) => {
     }
     res.status(200).json({
         success: true,
-        testimonial,
+        data: testimonial,
     })
 })
 
@@ -67,7 +67,7 @@ exports.updateTestimonial = catchAsyncError(async (req, res, next) => {
     })
     res.status(200).json({
         success: true,
-        testimonial,
+        data: testimonial,
     })
 })
 
